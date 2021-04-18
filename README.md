@@ -7,9 +7,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/@supv/superv-js" />
+  <a href="https://www.npmjs.com/package/@supv/superv-js" target="_blank">
+    <img alt="Package version" src="https://img.shields.io/npm/v/@supv/superv-js" />
+  </a>
   <a href="./LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg" target="_blank" />
+    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg" />
   </a>
 </p>
 
