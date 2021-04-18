@@ -1,0 +1,44 @@
+{
+  "name": "@supv/superv-js",
+  "version": "0.1.0-0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "author": "https://github.com/tammo",
+  "module": "dist/mylib.esm.js",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sup-v/superv-js"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "prepare": "tsdx build",
+    "prettier": "prettier --check ."
+  },
+  "peerDependencies": {},
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "bracketSpacing": true
+  },
+  "devDependencies": {
+    "prettier": "2.2.1",
+    "tsdx": "0.14.1",
+    "tslib": "2.2.0",
+    "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "3.1.0"
+  }
+}
